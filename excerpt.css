@@ -1,0 +1,33 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('assets/Hamingway.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Pozicionálás */
+.block {
+  width: 400px;
+  margin: 45px;
+  padding: 5px;
+  border-radius: 15px;
+  max-width: calc(100vw - 10px);
+  position: absolute;
+  top: +8%;
+  right: 0;
+}
+h1, h4 {
+  font-family: 'Xanh Mono', monospace;
+  font-size: 25px;
+  color: rgb(38, 38, 38);
+}
