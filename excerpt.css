@@ -11,16 +11,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url('assets/Hamingway.jpg') no-repeat center center fixed;
+  background: url('assets/Hemingway.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
 /* Pozicionálás */
 .block {
-  width: 400px;
-  margin: 45px;
-  padding: 5px;
-  border-radius: 15px;
+  width: 29.2825%;
+  margin: 3.294%;
+  padding: 0.366%;
   max-width: calc(100vw - 10px);
   position: absolute;
   top: +8%;
@@ -28,6 +27,6 @@ body {
 }
 h1, h4 {
   font-family: 'Xanh Mono', monospace;
-  font-size: 25px;
+  font-size: 1.5625rem;
   color: rgb(38, 38, 38);
 }
